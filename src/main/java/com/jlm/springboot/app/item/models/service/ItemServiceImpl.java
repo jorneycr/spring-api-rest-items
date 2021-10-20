@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 import com.jlm.springboot.app.item.models.Item;
 import com.jlm.springboot.app.item.models.Producto;
 
-@Service
+@Service("ItemServiceImpl")
 public class ItemServiceImpl implements ItemService {
 
 	@Autowired
